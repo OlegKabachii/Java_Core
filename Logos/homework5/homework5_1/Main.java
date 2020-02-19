@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Object obj = new Frog();
-		Amphibia frog = (Amphibia) obj;
+		Amphibia amph = new Frog();
+		Amphibia frog = (Amphibia) amph;
 		frog.eat();
 		frog.sleep();
 		frog.swim();
