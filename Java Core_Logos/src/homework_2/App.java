@@ -8,7 +8,7 @@ public class App {
 
 	public static void main(String[] args) {
 		int val1 = getRandom(1, 10);
-		int val2 = getRandom(1, 10);
+		int val2 = getRandom(10, 20);
 		String[] materials = { "Skin", "Alcantara" };
 		Car[][] car = new Car[val1][val2];
 
@@ -26,10 +26,10 @@ public class App {
 		while (true) {
 			Scanner scan = new Scanner(System.in);
 			System.out.println("Menu:");
-			int menuNumber = scan.nextInt();
 			System.out.println("1. View all data");
 			System.out.println("2.Set object");
 
+			int menuNumber = scan.nextInt();
 			if (menuNumber == 1) {
 				System.out.println(Arrays.deepToString(car));
 			}
