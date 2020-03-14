@@ -25,5 +25,4 @@ public class SteeringWheel {
 		return "SteeringWheel [diameter=" + diameter + ", material=" + material + "]";
 	}
 	
-	
 }
